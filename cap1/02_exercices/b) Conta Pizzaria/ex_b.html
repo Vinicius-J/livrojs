@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício B</title>
+  </head>
+  <body>
+    <script>
+      /* b) Elaborar um programa para uma pizzaria, o qual leia o valor total de
+      uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser
+      pago por cliente.
+    */
+      const conta = Number(prompt("Digite o valor total da conta:"));
+      const numPessoas = Number(
+        prompt("Digite o número de pessoas irão pagar a conta:")
+      );
+      const totalPessoa = conta / numPessoas;
+      alert(`O total para cada pessoa é: ${totalPessoa.toFixed(2)}`);
+    </script>
+  </body>
+</html>

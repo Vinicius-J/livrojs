@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício C</title>
+  </head>
+  <body>
+    <script>
+      /* c) Elaborar um programa para uma loja, o qual leia o preço de um produto e
+informe as opções de pagamento da loja. Calcule e informe o valor para
+pagamento à vista com 10% de desconto e o valor em 3x.
+      */
+     const preco = Number(prompt('Valor do produto:'));
+     const precoVista = preco - (preco * 0.10);
+     const precoParcelado = preco / 3;
+     alert(`Valor da conta: R$${preco.toFixed(2)} \nValor pago a vista: R$${precoVista.toFixed(2)} \nValor parcelado 3x de: R$${precoParcelado.toFixed(2)}`);
+    </script>
+  </body>
+</html>
