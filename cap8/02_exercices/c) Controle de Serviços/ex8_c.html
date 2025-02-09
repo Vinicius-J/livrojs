@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/estilo.css" />
+    <title>Exercício C</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="ex8.c.png" alt="Oficina Mecânica" />
+        </div>
+        <div class="col-sm">
+          <h1>Herbie: Controle de Serviços</h1>
+          <p>
+            Serviços - Veículo:
+            <input type="text" id="inService" class="form-control" />
+          </p>
+          <p>
+            <input
+              type="button"
+              value="Adicionar Serviço"
+              id="btnAdd"
+              class="btn btn-primary"
+            />
+            <input
+              type="button"
+              value="Executar Serviço"
+              id="btnExecut"
+              class="btn btn-danger"
+            />
+          </p>
+          <h2 class="right">
+            Serviços Pendentes: <span id="outNumServices">0</span>
+          </h2>
+          <p class="outServices">Serviço em Execução:</p>
+          <h3 id="outServices"></h3>
+        </div>
+      </div>
+    </div>
+    <script src="ex8_c.js"></script>
+  </body>
+</html>

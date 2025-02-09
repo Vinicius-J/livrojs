@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/estilo.css" />
+    <title>Exercício B</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="ex8_b.png" alt="Lista de Compras" />
+        </div>
+        <div class="col-sm">
+          <h1>Compras da Semana</h1>
+          <label for="inProduto">Produto: </label>
+          <input type="text" id="inProduto" class="form-control" />
+          <br />
+          <p>
+            <input
+              type="button"
+              value="Adicionar"
+              id="btnAdd"
+              class="btn btn-primary"
+            />
+            <input
+              type="button"
+              value="Limpar Listas"
+              id="btnClear"
+              class="btn btn-danger"
+            />
+          </p>
+          <pre id="outList"></pre>
+        </div>
+      </div>
+    </div>
+    <script src="ex8_b.js"></script>
+  </body>
+</html>
