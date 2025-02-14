@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Exemplo 10.2</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="ex11_2.jpg" alt="Teatro" class="imgProg" />
+        </div>
+        <div class="col-sm-9">
+          <h1>Teatro: Show Musical - Reserva de Poltronas</h1>
+          <div class="row">
+            <div class="col-sm-2">
+              <p>
+                <label for="inPoltrona">Nº da Poltrona:</label>
+                <input
+                  type="text"
+                  class="form-control aDireita"
+                  id="inPoltrona"
+                  autofocus
+                />
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <input
+                type="button"
+                class="btn btn-primary margemSup"
+                value="Reservar"
+                id="btReservar"
+              />
+              <input
+                type="button"
+                class="btn btn-danger margemSup"
+                value="Confirmar Reserva"
+                id="btConfirmar"
+              />
+            </div>
+            <div class="col-sm-6">
+              <p>Legenda:</p>
+              <p>
+                <img src="disponivel.jpg" /> Disponível
+                <img src="reservada.jpg" class="margemEsq" /> Reservada
+                <img src="ocupada.jpg" class="margemEsq" /> Ocupada
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12" id="divPalco">
+              <p class="bg-primary text-white text-center">Palco do Teatro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="ex10_2.js"></script>
+  </body>
+</html>
